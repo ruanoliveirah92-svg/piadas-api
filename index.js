@@ -55,5 +55,5 @@ app.get("/random", (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log("API de piadas rodando na porta 3000");
+  console.log("API de piadas rodando na porta " + (process.env.PORT || 3000));
 });
